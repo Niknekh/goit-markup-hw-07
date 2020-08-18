@@ -459,9 +459,9 @@ h2 {
 }
 
 .nav-list-item-link:hover .contacts-list-item-svg,
-.nav-list-item-linkk:focus .contacts-list-item-svg,
+.nav-list-item-link:focus .contacts-list-item-svg,
 .contacts-list-item-link:hover .contacts-list-item-svg,
-.contacts-list-item-linkk:focus .contacts-list-item-svg {
+.contacts-list-item-link:focus .contacts-list-item-svg {
   fill: #2196f3;
 }
 
@@ -714,16 +714,16 @@ h2 {
   text-decoration: none;
 }
 
+.gallery-list-item-link:hover, .gallery-list-item-link:focus,
+.gallery-list-item-link:hover .gallery-hover-desc,
+.gallery-list-item-link:focus .gallery-hover-desc {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+  transform: translateY(0px);
+}
+
 .gallery-list-item {
   width: 370px;
   outline: 1px solid #eeeeee;
-}
-
-.gallery-list-item:hover, .gallery-list-item:focus,
-.gallery-list-item:hover .gallery-hover-desc,
-.gallery-list-item:focus .gallery-hover-desc {
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
-  transform: translateY(0px);
 }
 
 .gallery-list-item:not(:nth-child(3n)) {

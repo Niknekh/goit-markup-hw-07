@@ -468,9 +468,9 @@ h2 {
 }
 
 .nav-list-item-link:hover .contacts-list-item-svg,
-.nav-list-item-linkk:focus .contacts-list-item-svg,
+.nav-list-item-link:focus .contacts-list-item-svg,
 .contacts-list-item-link:hover .contacts-list-item-svg,
-.contacts-list-item-linkk:focus .contacts-list-item-svg {
+.contacts-list-item-link:focus .contacts-list-item-svg {
   fill: #2196f3;
 }
 

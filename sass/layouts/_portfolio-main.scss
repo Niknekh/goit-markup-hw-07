@@ -48,10 +48,6 @@
 .gallery-list-item-link {
   display: block;
   text-decoration: none;
-}
-.gallery-list-item {
-  width: 370px;
-  outline: 1px solid #eeeeee;
   &:hover,
   &:focus,
   &:hover .gallery-hover-desc,
@@ -60,6 +56,10 @@
       0px 1px 1px rgba(0, 0, 0, 0.12);
     transform: translateY(0px);
   }
+}
+.gallery-list-item {
+  width: 370px;
+  outline: 1px solid #eeeeee;
   &:not(:nth-child(3n)) {
     margin-right: 30px;
   }
